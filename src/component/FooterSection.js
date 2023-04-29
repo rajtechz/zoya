@@ -1,7 +1,8 @@
 import { Avatar, Box, Center, Container, Grid, List, Title } from '@mantine/core'
 import { IconBrandGithubFilled, IconBrandInstagram, IconBrandLinkedin, IconBrandTwitterFilled, IconLocation, IconMail } from '@tabler/icons-react'
 import React, { useEffect } from 'react'
-import Dhanush from "./assets/Dhanush.jpg"
+// import Dhanush from "./assets/Dhanush.jpg"
+import zoya from "./assets/zoya.jpeg"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 export default function FooterSection() {
@@ -69,7 +70,7 @@ export default function FooterSection() {
 
 
                             <Center>
-                                <Avatar src={Dhanush} alt="it's me" radius="50%" size="100px" />
+                                <Avatar src={zoya} alt="it's me" radius="50%" size="100px" />
                             </Center>
 
                         </Grid.Col>
